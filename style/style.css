@@ -2,7 +2,22 @@
     padding: 0;
     margin: 0;
 }
-
+body{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100vh;
+}
+section{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+section>input{
+margin-top: 20px;
+}
 button  {
     all:unset;
     background-color: tomato;
@@ -19,20 +34,16 @@ a:hover{
     text-decoration: underline;
 }
 nav{
-  
     display: flex;
     padding: 10px;
     justify-content: space-between;
     align-items: center;
     flex-wrap: wrap;
 }
-nav > div{
-   
-    min-width: 250px;
+nav > div{  
+    /* min-width: 250px;
     display: flex;
-    justify-content: space-between;
-    
-    
+    justify-items: space-between; */
 }
 
 nav > div:first-child{
